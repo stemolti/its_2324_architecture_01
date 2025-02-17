@@ -1,0 +1,19 @@
+{
+  "name": "receive-event-client",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/payment/receive-event/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/payment/receive-event",
+        "main": "libs/payment/receive-event/src/index.ts",
+        "tsConfig": "libs/payment/receive-event/tsconfig.lib.json",
+        "assets": ["libs/payment/receive-event/*.md"]
+      }
+    }
+  }
+}

@@ -15,6 +15,12 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@payment/config": ["libs/payment/config/src/index.ts"],
+      "@payment/event-client": ["libs/payment/event-client/src/index.ts"],
+      "@payment/events": ["libs/payment/events/src/index.ts"],
+      "@payment/receive-event-client": [
+        "libs/payment/receive-event/src/index.ts"
+      ],
       "@utils/event-utils": ["libs/utils/event-utils/src/index.ts"],
       "@utils/message-utils": ["libs/utils/message-utils/src/index.ts"],
       "@warehouse/config": ["libs/warehouse/config/src/index.ts"],
